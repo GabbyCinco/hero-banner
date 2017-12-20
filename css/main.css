@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -19,7 +21,17 @@ html {
 
 .banner-title {
   position: absolute;
+  margin: 0;
   font-size: 4rem;
   text-align: left;
-  left: 50px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+p {
+  position: absolute;
+  bottom: 15px;
+  margin: 0;
+  text-align: left;
+  font-size: 2rem;
+  font-style: italic;
 }
