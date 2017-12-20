@@ -1,14 +1,25 @@
 html {
   box-sizing: border-box;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-
-
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.banner-title {
+  position: absolute;
+  font-size: 4rem;
+  text-align: left;
+  left: 50px;
 }
